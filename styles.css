@@ -5,8 +5,7 @@ body {
 }
 
 body > * {
-	padding: 10px 50px;
-	/* padding: 10px 10%; */
+	padding: 10px 10vw;
 }
 
 header,
@@ -19,7 +18,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/* padding: 10px 50px; */
+	padding: 10px 0 100px 0;
 }
 
 .header ul {
@@ -50,12 +49,15 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	gap: 50px;
+	padding: 10px 0 100px 0;
 }
 
 .hero-main {
 	font-size: 48px;
 	font-weight: 800;
 	color: #f9faf8;
+	margin: 0;
 }
 
 .hero button {
@@ -72,7 +74,7 @@ footer {
 }
 
 .info {
-	padding: 15px 0px 30px;
+	padding: 80px 0px;
 }
 
 .info-header {
@@ -80,28 +82,32 @@ footer {
 	font-weight: 800;
 	color: #1f2937;
 	text-align: center;
+	padding-bottom: 30px;
 }
 
 .cards {
 	display: flex;
-	justify-content: space-around;
-	gap: 30px;
+	justify-content: space-between;
+	/* gap: 30px; */
+	padding: 10px 10vw;
 }
 
 .cards div {
 	display: flex;
 	flex-direction: column;
-	/* align-items: flex-start; */
+	align-items: center;
 	justify-content: flex-start;
 	max-width: 100px;
 }
 
-.cards div div {
-	/* padding: 0; */
+.card-text {
+	text-align: center;
 }
 
 .quote {
 	background-color: #e5e7eb;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .quoter {
@@ -116,7 +122,9 @@ footer {
 }
 
 .action {
-	/* padding: 50px; */
+	/* padding: 50px 0; */
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .action-container {
