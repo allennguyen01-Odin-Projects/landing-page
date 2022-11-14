@@ -14,6 +14,10 @@ footer {
 	color: white;
 }
 
+img {
+	border-radius: 10px;
+}
+
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -97,7 +101,8 @@ footer {
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-start;
-	max-width: 100px;
+	max-width: 150px;
+	flex-wrap: wrap;
 }
 
 .card-text {
